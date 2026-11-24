@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Irffan Hakimi Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER + NAVIGATION (same on every page) -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">IH</a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="theme-btn" class="theme-btn">Dark/Light</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Projects</h1>
+      <p class="muted">Filter by category:</p>
+      <div class="filter-bar">
+        <button class="btn filter-btn" data-filter="all">All</button>
+        <button class="btn btn-outline filter-btn" data-filter="monitoring">Monitoring</button>
+        <button class="btn btn-outline filter-btn" data-filter="plc">PLC</button>
+        <button class="btn btn-outline filter-btn" data-filter="hmi">HMI-SCADA</button>
+      </div>
+      <div class="grid">
+        <article class="card project-card" data-category="monitoring">
+          <img src="images/project.jpeg" alt="Water quality monitoring system prototype">
+          <span class="tag">Monitoring</span>
+          <h3>Water Quality Monitoring</h3>
+          <p><strong>Problem:</strong> Integrating hardware and software for monitoring.</p>
+          <p><strong>My role:</strong> Team leader and integrator.</p>
+          <p><strong>Tools:</strong> Arduino Uno, GitHub, Google Sheets.</p>
+          <p><strong>Outcome:</strong> Hardware and software communicated successfully with positive response.</p>
+        </article>
+        <article class="card project-card" data-category="hmi">
+          <img src="images/Project2.jpeg" alt="Water quality monitoring system prototype">
+          <span class="tag">HMI-SCADA</span>
+          <h3>Teaching Factory: Integrated Conveyor and Robot System</h3>
+          <p><strong>Problem:</strong> Integrating a conveyor and a robot through one HMI, so the operator can monitor and control the line from a single screen.</p>
+          <p><strong>My role:</strong> HMI Developer</p>
+          <p><strong>Tools:</strong> Mitsubishi GT Designer3</p>
+          <p><strong>Outcome:</strong> The conveyor and robot systems worked together through the HMI, with positive results.</p>
+        </article> 
+        <article class="card project-card" data-category="pcb">
+          <img src="images/project3.jpeg" alt="PCB layout of an ESP32 board with display and sensor headers">
+          <span class="tag">PCB Design</span>
+          <h3>ESP32 Monitoring Board PCB Design </h3>
+          <p><strong>Problem:</strong> Combining an ESP32, an I2C display and a sensor module on one custom board instead of loose wiring.</p>
+          <p><strong>My role:</strong> PCB Designer</p>
+          <p><strong>Tools:</strong> EasyEDA </p>
+          <p><strong>Outcome:</strong> layout completed </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (same on every page) -->
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Muhammad Irffan Hakimi bin Mohd Jamadi Yusrry. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/irffan-hakimi-a6a86a265/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/irffan1712" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:irffanhakimi1@gmail.com">Email</a></li>
+    </ul>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

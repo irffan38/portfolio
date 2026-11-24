@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Irffan Hakimi Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER + NAVIGATION (same on every page) -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">IH</a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><button id="theme-btn" class="theme-btn">Dark/Light</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Contact</h1>
+      <div class="grid">
+        <article class="card">
+          <h3>Get in touch</h3>
+          <ul class="list">
+            <li>Email: <a href="mailto:irffanhakimi1@gmail.com">irffanhakimi1@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/irffan-hakimi-a6a86a265/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/irffan1712" target="_blank" rel="noopener">GitHub</a></li>
+            <li>Location: Melaka, Malaysia</li>
+          </ul>
+        </article>
+      </div>
+      <h2>Send a message</h2>
+      <form id="contact-form" class="form-box" novalidate>
+        <label for="name">Name</label>
+        <input id="name" type="text">
+        <p id="name-error" class="error"></p>
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <p id="email-error" class="error"></p>
+        <label for="subject">Subject</label>
+        <input id="subject" type="text">
+        <p id="subject-error" class="error"></p>
+        <label for="message">Message</label>
+        <textarea id="message" rows="5"></textarea>
+        <p id="message-error" class="error"></p>
+        <button type="submit" class="btn">Send message</button>
+        <p id="success-msg" class="success">Thank you! Your message passed validation. (Demo form: nothing is sent.)</p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER (same on every page) -->
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Muhammad Irffan Hakimi bin Mohd Jamadi Yusrry. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/irffan-hakimi-a6a86a265/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/irffan1712" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:irffanhakimi1@gmail.com">Email</a></li>
+    </ul>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

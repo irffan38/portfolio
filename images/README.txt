@@ -1,0 +1,1 @@
+Place profile.jpg, project1.jpg, project2.jpg, project3.jpg here (compressed)

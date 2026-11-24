@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Irffan Hakimi Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER + NAVIGATION (same on every page) -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">IH</a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="theme-btn" class="theme-btn">Dark/Light</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div class="hero-text">
+        <p id="greeting" class="greeting">Hello, I am</p>
+        <h1>Muhammad Irffan Hakimi</h1>
+        <p class="muted">Aspiring Industrial Automation Technologist</p>
+        <p class="typing-line">I am an <span id="typing-text"></span><span class="cursor">|</span></p>
+        <!-- EDIT: rewrite this intro in your own words -->
+        <p>I am a Bachelor of Technology in Industrial Electronic Automation student at UMPSA. I am interested in PLC, HMI, SCADA, machine vision and equipment maintenance, and I enjoy building and DIY projects.</p>
+        <a href="projects.html" class="btn">View My Work</a>
+        <a href="docs/Resume_Irffan.pdf" class="btn btn-outline" download>Download CV</a>
+      </div>
+      <!-- Put your photo at images/profile.jpg (square, under 200 KB) -->
+      <img src="images/profileimage.jpeg" alt="Portrait photo of Muhammad Irffan Hakimi" class="hero-photo">
+    </section>
+    <section class="container">
+      <h2>Quick Highlights</h2>
+      <div class="grid">
+        <article class="card"><p class="stat">1</p><p>Project documented (more coming)</p></article>
+        <article class="card"><p class="stat">Omron</p><p>PLC platform I work with</p></article>
+        <article class="card"><p class="stat">PiStudio</p><p>HMI software I have used</p></article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (same on every page) -->
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Muhammad Irffan Hakimi bin Mohd Jamadi Yusrry. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/irffan-hakimi-a6a86a265/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/irffan1712" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:irffanhakimi1@gmail.com">Email</a></li>
+    </ul>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
